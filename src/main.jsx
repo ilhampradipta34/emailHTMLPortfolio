@@ -3,7 +3,7 @@ import { createRoot } from "react-dom/client";
 import "./styles.css";
 
 // Replace with your GitHub repository URL before publishing.
-const githubBaseUrl = "https://github.com/ilhampradipta34/emailHTMLPortfolio/blob/main/src/email/";
+const githubBaseUrl = "https://github.com/ilhampradipta34/emailHTMLPortfolio/blob/main";
 
 const emails = [
   { slug: "pulsefit", image: "/images/previews/PulseFit.png", category: "Welcome email", title: "Pulse Fit", description: "An energising first-touch experience for new members.", file: "src/email/pulsefit-welcome-en.html" },
