@@ -3,16 +3,16 @@ import { createRoot } from "react-dom/client";
 import "./styles.css";
 
 // Replace with your GitHub repository URL before publishing.
-const githubBaseUrl = "https://github.com/USERNAME/NAMA-REPOSITORY/blob/main";
+const githubBaseUrl = "https://github.com/ilhampradipta34/emailHTMLPortfolio/blob/main/src/email/";
 
 const emails = [
-  { slug: "pulsefit", image: "/images/previews/PulseFit.png", category: "Welcome email", title: "Pulse Fit", description: "An energising first-touch experience for new members.", file: "pulsefit-welcome-en.html" },
-  { slug: "weekly-loop", image: "/images/previews/newsletter.png", category: "Newsletter", title: "The Weekly Loop", description: "A thoughtful weekly digest built for easy reading.", file: "newsletter.html" },
-  { slug: "nexa-pods", image: "/images/previews/productLaunch.png", category: "Product launch", title: "Nexa Pods", description: "A polished launch story for a new audio product.", file: "productLaunch.html" },
-  { slug: "lumora-coffee", image: "/images/previews/discountEmail.png", category: "Promotion", title: "Lumora Coffee", description: "A warm seasonal offer for premium coffee lovers.", file: "discountEmail.html" },
-  { slug: "order-confirmed", image: "/images/previews/orderConfirm.png", category: "Transactional", title: "Order Confirmed", description: "A clear, reassuring order confirmation and invoice.", file: "order-confirmation-invoice-en.html" },
-  { slug: "studio-wear", image: "/images/previews/StudioWear.png", category: "E-commerce", title: "Studio Wear", description: "A considered nudge for items left in the cart.", file: "studiowear-abandoned-cart-en.html" },
-  { slug: "design-summit", image: "/images/previews/invit.png", category: "Event invitation", title: "Design Summit 2026", description: "A refined invitation for a future-facing design event.", file: "design-summit-invitation-en.html" }
+  { slug: "pulsefit", image: "/images/previews/PulseFit.png", category: "Welcome email", title: "Pulse Fit", description: "An energising first-touch experience for new members.", file: "src/email/pulsefit-welcome-en.html" },
+  { slug: "weekly-loop", image: "/images/previews/newsletter.png", category: "Newsletter", title: "The Weekly Loop", description: "A thoughtful weekly digest built for easy reading.", file: "src/email/newsletter.html" },
+  { slug: "nexa-pods", image: "/images/previews/productLaunch.png", category: "Product launch", title: "Nexa Pods", description: "A polished launch story for a new audio product.", file: "src/email/productLaunch.html" },
+  { slug: "lumora-coffee", image: "/images/previews/discountEmail.png", category: "Promotion", title: "Lumora Coffee", description: "A warm seasonal offer for premium coffee lovers.", file: "src/email/discountEmail.html" },
+  { slug: "order-confirmed", image: "/images/previews/orderConfirm.png", category: "Transactional", title: "Order Confirmed", description: "A clear, reassuring order confirmation and invoice.", file: "src/email/order-confirmation-invoice-en.html" },
+  { slug: "studio-wear", image: "/images/previews/StudioWear.png", category: "E-commerce", title: "Studio Wear", description: "A considered nudge for items left in the cart.", file: "src/email/studiowear-abandoned-cart-en.html" },
+  { slug: "design-summit", image: "/images/previews/invit.png", category: "Event invitation", title: "Design Summit 2026", description: "A refined invitation for a future-facing design event.", file: "src/email/design-summit-invitation-en.html" }
 ];
 
 function Preview({ email }) {
