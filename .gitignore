@@ -1,0 +1,11 @@
+# Dependencies are installed by Vercel/Linux during each build.
+node_modules/
+
+# Generated output
+dist/
+
+# Local environment files and logs
+.env
+.env.*
+!.env.example
+npm-debug.log*
